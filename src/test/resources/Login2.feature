@@ -21,7 +21,6 @@ Feature: Login Functionality
     Examples:
       | username     | password   |  |
       | "autotester" | "password" |  |
-      |              |            |  |
 
 
   Scenario: Login Successful1
