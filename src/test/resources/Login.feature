@@ -19,8 +19,8 @@ Feature: Login Functionality
 
 
     Examples:
-      | username     | password   |  |
-      | "autotester" | "password" |  |
+      | username     | password   |  userFullName|
+      | "autotester" | "password" | " Auto Tester" |
       |              |            |  |
 
 
@@ -28,7 +28,7 @@ Feature: Login Functionality
 
     Given I am in the login page of the Para Bank Application
     When  I enter valid credentials from Data Table
-      | autotester | password |  |
+      | autotester | password | " Fg9Eorec yISecpwp" |
     Then I should be taken to the Overview page
 
 
@@ -40,4 +40,4 @@ Feature: Login Functionality
 
     Examples:
       | username     | password   | userFullName   |
-      | "autotester" | "password" | " Auto Tester" |
+      | "autotester" | "password" | " Fg9Eorec yISecpwp" |
